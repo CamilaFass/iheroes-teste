@@ -1,7 +1,9 @@
-<h2>Relatório do Desenvolvimento do iHeroes</h2>
+<h2>Relatório do iHeroes</h2>
 Neste ReadMe irei explicar como foi feito o desafio, quais os obstáculos, tecnologias, utilizadas, etc. Separado em front-end e back-end para melhor exemplificar.
 <br>
+<br>
 <strong>Herói</strong>
+<br>
 Modelo do registro:
 <br>
 id: * Identificação gerada pelo banco de dados *
@@ -12,8 +14,9 @@ class: [ S, A, B, C ]
 <br>
 avaible: [ true, false ]
 <br>
+<br>
 <strong>Ocorrência</strong>
-<p>precisamos de um campo informando a situação atual da ocorrência, que serão três: pendente, em atendimento e concluído.</p>
+<p>Precisamos de um campo informando a situação atual da ocorrência, que serão três: pendente, em atendimento e concluído.</p>
 <br>
 Modelo do registro:
 <br>
@@ -29,7 +32,9 @@ date: * Data que a ameaça surgiu *
 <br>
 state: [ pending, attending, done ]
 <br>
+<br>
 <strong>Registro da Atividade do Herói</strong>
+<br>
 É necessário identificar QUEM foi encaminhado para a ocorrência e quando a ameaça foi finalizada, então a ocorrência recebe um ID de registro e um outro campo informando o herói designado, com ID e nome. Além de outro campo para data, para saber quando foi concluída.
 <br>
 Modelo do registro:
@@ -43,6 +48,7 @@ avaible: [ true, false ]
 date: * Data do registro *
 <br>
 occurrence: id da ocorrência
+<br>
 <br>
 <h2>Preferência do Herói</h2>
 <br>
@@ -73,10 +79,13 @@ B: 2
 C: 1
 <br>
 <h2>Backend</h2>
+<br>
 Utilizei: node.JS para o desenvolvimento e MongoDB/Mongoose para o banco de dados.
 <br>
 <h2>Frontend</h2>
+<br>
 Utilizei: JavaScript, React, Bootstrap, Redux, Axios.
 <br>
 <h2>Desafios</h2>
+<br>
 Achei o teste bem desafiador, contei com muita pesquisa e auxílio de colegas, principalmente para parte do backend além de Redux e Axios, que são o que estou começando a aprender.
